@@ -29,7 +29,7 @@ public class Main {
         }
         return diff;
     }
-
+    // 3. Написать функцию, возвращающую истину, если в переданном массиве есть два соседних элемента, с нулевым значением.
     public static boolean doubleZero(int[] arr, int position) {
         if (position < 1) {
             return doubleZero(arr, 1);
@@ -43,8 +43,6 @@ public class Main {
             return doubleZero(arr, position + 1);
         }
     }
-
-    // 3. Написать функцию, возвращающую истину, если в переданном массиве есть два соседних элемента, с нулевым значением.
 
     public static void main(String[] args) {
 
